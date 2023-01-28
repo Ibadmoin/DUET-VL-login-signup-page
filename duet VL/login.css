@@ -92,7 +92,6 @@
 body {
   background-color: #4B338C;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
   display: flex;
   justify-content: space-around;
 }
@@ -102,6 +101,17 @@ body {
     margin-top: 15%;
 
 }
+@media only screen and (max-width: 576px) {
+  .herotext {
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    }
+} 
+
 .herotext h1{
     font-family:"Roboto";
     font-size: 50px;
@@ -112,52 +122,33 @@ body {
    
 
 }
-@media only screen and (max-width: 753px) {
+@media only screen and (max-width: 576px) {
   .herotext h1 {
-    position: absolute;
-    top: 10%;
-    right: 10%;
-  
-    }
-}
-@media only screen and (max-width: 648px) {
-  .herotext h1 {
-    position: absolute;
-    top: 10%;
-    right: 15%;
-    font-size: 40px;
-  
-    }
-}
-@media only screen and (max-width: 563px) {
-  .herotext h1 {
-    position: absolute;
-    top: 10%;
-    right: 15%;
-    font-size: 35px;
-  
-    }
-}
-@media only screen and (max-width: 491px) {
-  .herotext h1 {
-    position: absolute;
-    top: 10%;
-    right: 15%;
     font-size: 30px;
-  
+    display: inline-block;
+    margin-top: 80px;
+
     }
-}
-  
-@media only screen and (max-width: 348px) {
+} 
+@media only screen and (max-width: 376px) {
   .herotext h1 {
-    position: absolute;
-    top: 10%;
-    right: 15%;
-    font-size: 22px;
-  
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 80px;
+
     }
-}
-  
+} 
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  overflow-x: hidden;
+
+  }
+} 
+
 .herotext h4{
     font-family:"poppins";
     font-size: 20px;
@@ -168,50 +159,25 @@ body {
     margin-top: -60px;
 
 }
-@media only screen and (max-width: 753px) {
-  .subheading {
+@media only screen and (max-width: 600px) {
+  .herotext h4 {
     display: none;
-   
-  }
-}
+    
+    }
+} 
+
+
 
 
 .loginform{
   margin-top: 5%;
 }
-@media only screen and (max-width: 753px) {
+@media only screen and (max-width: 600px) {
   .loginform {
-    position: absolute;
-    right: 25%;
-    top: 20%;
- 
-  }
-}
-@media only screen and (max-width: 563px) {
-  .loginform {
-    position: absolute;
-    right: 20%;
-    top: 20%;
- 
-  }
-}
-  
-@media only screen and (max-width: 563px) {
-  .loginform {
-    position: absolute;
-    right: 15%;
-    top: 20%;
- 
-  }
-}
-  
-@media only screen and (max-width: 348px) {
-  .loginform {
-   position: relative;
-   right: 15px;
-  top: 100px;
-  }
-}
+    margin-top: -15%;
+    }
+} 
+
   
 
 .owl {
@@ -272,7 +238,7 @@ body {
   margin-top: -9px;
   padding: 30px;
   background-color: #fff;
-  width: 300px; 
+  width: 250px; 
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
 }
@@ -284,7 +250,7 @@ body {
 .form .control label {
   position: absolute;
   font-size: 16px;
- left: 20px;
+ left: 15px;
  top: 10px;
   color: rgba(0,0,0,0.3);
 }
@@ -298,7 +264,7 @@ body {
 .control input:focus{
     outline: 2px solid #01e1ff;
 }
-.loginbtn{
+.loginbtn {
     background-color: #4B338C;
     border: none;
     border-radius: 6px;
@@ -311,6 +277,10 @@ body {
     font-weight: bold;
   cursor: pointer;
 
+}
+.loginbtn a{
+   text-decoration: none;
+   color: #FFFFFF;
 }
 .loginbtn:hover{
   opacity: 0.9;
