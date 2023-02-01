@@ -89,8 +89,14 @@
 } */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+
 body {
-  background-color: #4B338C;
+
+  background-image: linear-gradient(to left, #4b338c, #563991, #613f97, #6c459c, #764ba2);
+
+
+  /* background-color: #4B338C; */
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-around;
@@ -184,7 +190,7 @@ body {
   margin: auto;
   width: 211px;
   height: 108px;
-  background-image: url("https://dash.readme.io/img/owl-login.png");
+  background-image: url("images/owl-face.png");
   position: relative;
 }
 .owl .hand {
@@ -217,7 +223,7 @@ body {
 .owl .arms .arm {
   width: 40px;
   height: 65px;
-  background-image: url("https://dash.readme.io/img/owl-login-arm.png");
+  background-image: url("images/owl-login-arm.png");
   position: absolute;
   left: 20px;
   top: 40px;
