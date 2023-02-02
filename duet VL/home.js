@@ -1,1 +1,1 @@
-alert("Website is under construction!! \n Thank you for waiting")
+alert("Website is being developed!! \n Thank you for waiting")
